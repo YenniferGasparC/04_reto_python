@@ -15,7 +15,7 @@ print(df[df['DPTO_HECHO'] == 'CUSCO']) & (df['PROV_HECHO'])
 print("TOTAL DE PERSONAS DESAPARECIDAS")
 
 
-ranking = df['PROV_HECHO'].value_counts()
+ranking = df['MES'].value_counts()
 
-ranking_top_5 = ranking.head(5)
+ranking_top_5 = ranking.head(12)
 print(ranking_top_5)
